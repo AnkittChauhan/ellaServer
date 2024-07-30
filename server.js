@@ -58,13 +58,6 @@ async function runChat(userInput) {
   return result.response.text();
 }
 
-app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/index.html');
-});
-
-app.get('/loader.gif', (req, res) => {
-  res.sendFile(__dirname + '/loader.gif');
-});
 
 app.post('/chat', async (req, res) => {
   const { userInput } = req.body;
