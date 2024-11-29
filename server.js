@@ -1114,7 +1114,7 @@ async function runChat(userInput) {
     },
     {
       role: "user",
-      parts: [{ text: "What is Kalacode ?" }],
+      parts: [{ text: "What is Kalacode , Kalacode is an insights AR/VR Application Development Agency based in India" }],
     },
     {
       role: "model",
